@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+	color: white;
+}
+.navbar {
+	background-color: #000000;
+}
+.relative-margin {
+	margin-bottom: 120px;
+}
+.absolute-card {
+	max-width: 300px;
+	background-color: black;
+	position: absolute;
+	bottom: -100px;
+	right: 30px;
+}
+.thumbnail {
+	width: 60px;
+}
+@media screen and (max-width: 768px) {
+	footer {
+		border-top: thin solid white;
+	}
+}
